@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node16",
+    "outDir": "dist/cjs",
+    "types": ["node"],
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/types"
+  },
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"]
+}
